@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+#state {
+    text-align: center;
+    color: #d1d5db; /* Tailwind gray-300 */
+}
+
+#result {
+    color: #d1d5db; /* Tailwind gray-300 */
+}
+
+/* Optional: Add a responsive utility class for the button */
+#submit {
+    transition: border 0.3s;
+}
+
+#submit:hover {
+    border: 1px solid white;
+}
